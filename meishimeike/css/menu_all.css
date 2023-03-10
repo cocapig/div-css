@@ -1,0 +1,86 @@
+.Red{
+    color: red;
+}
+.line{
+    height: 70px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+.line div{
+    margin-left: 15px;
+    width: 70px;
+    height: 47px;
+    float: left;
+    border-bottom: 2px solid;
+}
+.caip{
+    height: 255px;
+    background-color: #fff;
+    position: relative;
+}
+.caip ul{
+    height: 146px;
+    position: absolute;
+    top: 66px;
+    left: 100px;
+}
+.caip .img_caip img{
+    float: left;
+    height: 146px;
+    width: 218px;
+}
+.caip .img_caip li{
+    bottom: 0;
+}
+.caip .p1{
+    font: normal 700 24px/42px "微软雅黑";
+    height: 42px;
+    padding: 15px 0 0 15px;
+    top: 10px;
+    left: 10px;
+}
+.caip .p2{
+    font: normal 400 12px "微软雅黑";
+    padding: 5px 0 0 15px;
+}
+.caip .a_more{
+    color: #666;
+    font-size: 12px;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+}
+.skip{
+    overflow: hidden;
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    margin-top: 60px;
+    margin-bottom: 70px;
+}
+.skip li {
+    float: left;
+    margin: 0 1px;
+}
+.skip li input{
+    text-align: center;
+    font: normal 700 15px/58px "微软雅黑";
+    width: 58px;
+    height: 58px;
+    background-color:#f5f5f5;
+    color:#8f8f8f
+}
+.skip .spn{
+    font: normal 700 15px/58px "微软雅黑";
+    color:#8f8f8f;
+}
+.skip .next{
+    width: 100px;
+    height: 58px;
+    background-color: #f5f5f5;
+    text-align: center;
+    margin: 0  14px;
+}

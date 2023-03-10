@@ -1,0 +1,167 @@
+.center{
+    width: 1002px;
+    margin: 0 auto;
+}
+.fz14{
+    font-size: 14px;
+}
+.cRed{
+    color: #eb3232;
+}
+.top{
+    height: 47px;
+    background-color: #E9E8E8;
+}
+.top .top_c{
+    height: 47px;
+    line-height: 47px;
+}
+/* logo B */
+.logo{
+    height: 99px;
+    background-color: #c70202;
+}
+.logo .l_c{
+    height: 99px;
+}
+.logo .l_left h1 a{
+    display: inline-block;
+    width: 221px;
+    height: 97px;
+    background: url(../images/logo.png);
+    text-indent: -9999em;
+}
+.logo .l_center{
+    width: 298px;
+    height: 30px;
+    padding: 1px;
+    margin-left: 70px;
+    margin-top: 34px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.logo .l_center .txt{
+    width: 236px;
+    height: 30px;
+    outline: none;
+}
+.logo .l_center .btn{
+    width: 58px;
+    height: 30px;
+    background-color: #c70202;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+.logo .l_right{
+    margin-top: 35px;
+}
+.logo .l_right li{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.logo .l_right a{
+    color: #fff;
+}
+.logo .l_right input{
+    width: 56px;
+    height: 32px;
+    font-size: 14px;
+}
+.logo .l_right li b{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(../images/sprite.png);
+    vertical-align: middle;
+}
+.logo .l_right .sina{
+    background-position: 0 -28px;
+}
+/* logo E */
+
+/* 内容 B */
+/* 内容 E */
+
+/* foot B */
+
+.foot{
+    height: 273px;
+    padding: 10px;
+    background-color: #2f2f2f;
+}
+.foot .f_border{
+    height: 273px;
+    border: 1px solid #ffd283;
+    position: relative;
+}
+.foot .f_border b{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    /* background-color: red; */
+    background: url(../images/circle.png);
+}
+.foot .f_border .b1{
+    top:-1px;
+    left:-1px;
+    background-position: right bottom;
+}
+.foot .f_border .b2{
+    top:-1px;
+    right:-1px;
+    background-position: left bottom;
+}
+.foot .f_border .b3{
+    bottom:-1px;
+    left:-1px;
+    background-position: top right;
+}
+.foot .f_border .b4{
+    bottom:-1px;
+    right:-1px;
+    background-position: top left;
+}
+.foot .f_left {
+    margin-top: 55px;
+    color: #ccc;
+    
+}
+.foot .f_left li{
+    height: 33px;
+    line-height: 33px;
+}
+.foot .f_right {
+    margin-top: 34px;
+}
+.foot .f_right li{
+    float: left;
+    width: 105px;
+    height: 105px;
+    margin-left: 20px; 
+}
+.foot .f_right li a{
+    display: inline-block;
+    color: #666;
+    text-align: center;
+}
+.foot .f_right li s{
+    display: inline-block;
+    width: 105px;
+    height: 105px;
+    background: url(../images/sprite.png) no-repeat ; 
+    margin-bottom: 10px;   
+}
+.foot .f_right .wb{
+    background-position: -327px 0;
+}
+.foot .f_right .kj{
+    background-position: -327px -118px;
+}
+.foot .f_right .ewm{
+    background-position: -327px -236px;
+}
+.foot .f_right .khd{
+    background-position: -327px -354px;
+}
